@@ -1,0 +1,30 @@
+extends ./layout/index
+
+
+block contenido
+    main.container.mt-5 
+        .row 
+            .col-md-5 
+                img(src="img/nosotros.jpg", alt="sobre nosotros", class="img-fluid")
+            .col-md-7
+                h1 #{pagina}
+                blockquote Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pulvinar urna purus, eget faucibus neque mollis quis. Maecenas ullamcorper turpis et lobortis porta. Nulla ultrices felis in ultrices mollis. Praesent at lorem nisi. Curabitur cursus euismod turpis at ornare. Donec condimentum neque eget maximus egestas.
+
+                p Cras convallis ex et suscipit malesuada. Vivamus sit amet justo eget purus finibus porta mollis eget tortor. Quisque mattis accumsan enim, eu rutrum justo luctus eget. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam tincidunt quis lacus a cursus. Nunc ut feugiat ligula. Donec auctor, nulla sit amet facilisis ornare, nunc mi porttitor sem, non congue neque dolor ut nulla. 
+
+                p Mauris ac auctor massa. Nulla sagittis blandit augue, vitae fermentum metus eleifend ut. Nam a urna non metus ullamcorper molestie vel sit amet dolor. Nulla ac tortor turpis. Nam nec sapien tellus. Proin placerat, ex facilisis sollicitudin ornare, massa nibh hendrerit diam, in porttitor ligula justo convallis nibh. Vivamus vehicula, urna ut ultrices commodo, arcu lorem mollis nulla, sit amet tempus velit est at risus. 
+    .listado-iconos 
+        .container.mt-5.py-5.text-center 
+            .row
+                .col-md-4 
+                    img(src="img/icono_seguridad.svg", alt="icono seguridad", class="img-fluid mb-4")
+                    h2.mb-4 Seguridad 
+                    p Vivamus vehicula, urna ut ultrices commodo, arcu lorem mollis nulla, sit amet tempus velit est at risus. 
+                .col-md-4 
+                    img(src="img/icono_destinos.svg", alt="icono destino", class="img-fluid mb-4")
+                    h2.mb-4 Mejores Destinos 
+                    p Vivamus vehicula, urna ut ultrices commodo, arcu lorem mollis nulla, sit amet tempus velit est at risus.
+                .col-md-4 
+                    img(src="img/icono_precios.svg", alt="icono precios", class="img-fluid mb-4")
+                    h2.mb-4 Mejores Precios
+                    p Vivamus vehicula, urna ut ultrices commodo, arcu lorem mollis nulla, sit amet tempus velit est at risus.
